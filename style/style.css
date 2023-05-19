@@ -1,0 +1,98 @@
+html,
+body{
+  height: 100%;
+  font-size: 15px;
+}
+
+body{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+    margin: 0px 130px;
+}
+
+.header-title {
+    color: #000;
+    font-family: 'Tinos', serif;
+    font-weight: 100;
+    font-size: 36px ;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 28px 0 0 0 ;
+}
+
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nav-item { /* параметры текста */ 
+    color: #000;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 16px;
+    padding-top: 28px;
+    transition: color 0.3s linear;
+}
+
+.nav-item:hover { /* при наведении на меню */
+    color: #d81d1d;
+}
+
+.banner {
+    margin-top: 30px;
+}
+
+.swiper{
+    width: 100%;
+    height: auto;
+}
+.swiper-slide{
+    text-align: center;
+    font-size: 18px;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.swiper-slide img{
+    width: 100%;
+    object-fit: cover;
+}
+.swiper-button-next, .swiper-rtl .swiper-button-prev{
+    right: 140px !important; 
+    left: auto;
+}
+.swiper-button-prev, .swiper-rtl .swiper-button-next{
+    left: 140px !important; 
+    right: auto;
+}
+
+.history {
+    margin-top: 50px;
+    margin-left: 0px;
+}
+
+.history-title {
+    font-family: 'Tinos', serif;
+    font-weight: 400;
+    font-size: 54px ;
+    width: 444px;
+    text-align: center;
+    margin-left: 300px;
+}
+
+.history-title span {
+    color: #BC9060;
+}
+
+.history-images{
+    position: relative;
+    margin-top: 25px;
+}
